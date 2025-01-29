@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 5px;
+}
+body {
+  background-color: rgb(14, 12, 12);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  padding: 10px;
+  color: #fff;
+  background-color: black;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.menu {
+  display: flex;
+  list-style: none;
+}
+.menu li {
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  padding-right: 150px;
+  transition: 0.2s;
+  text-align: center;
+}
+.menu li:hover {
+  color: aqua;
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  color: beige;
+  padding-top: 50px;
+}
+.home h1 {
+  display: flex;
+  font-size: 4rem;
+  padding-top: 80px;
+}
+.home span {
+  display: flex;
+  justify-content: space-between;
+  color: blueviolet;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgb(15, 19, 18);
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+}
+.home .left {
+  width: 200%;
+  padding-right: 50px;
+  padding-top: 100px;
+}
+.right {
+  display: flex;
+  padding-right: 10px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  color: #fff;
+  background-color: black;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.titre {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+  padding-right: 100px;
+  font-size: large;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 50px;
+}
+.button Tokens {
+  display: flex;
+  background-color: blue;
+}
